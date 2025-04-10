@@ -5,8 +5,8 @@ from plot import plot_curves
 
 
 def hyperparameter_tuning(X_train, y_train, X_val, y_val):
-    learning_rates = [0.01,0.001]
-    hidden_layers_sizes = [[128, 256]]
+    learning_rates = [0.01, 0.005]
+    hidden_layers_sizes = [[128], [128, 256]]
     regularization_strengths = [0.0, 0.01]
     best_hyper = {}
     min_val_loss = 1e10
