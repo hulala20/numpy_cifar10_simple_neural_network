@@ -18,4 +18,3 @@ L2 正则化
 numpy
 matplotlib
 sklearn
-keras（仅用于数据加载）
