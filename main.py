@@ -30,5 +30,5 @@ if __name__ == "__main__":
     final_model.weights = load_model_weights()
     acc = test(final_model, x_test, y_test)
     print(f'test_acc:{acc}')
-    plot_curves(training_losses, val_losses, val_accuracy)
+    plot_curves(training_losses, val_losses, val_accuracy, filename='final_png.png')
     plot_weights_distribution(final_model)
